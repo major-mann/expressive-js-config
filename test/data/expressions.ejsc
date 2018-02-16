@@ -1,0 +1,7 @@
+id: 'server',
+domain: 'example.com',
+port: 8080,
+protocol: 'https',
+uri: `${protocol}://${domain}${port === 80 ? '' : ':' + port}`,
+paths: ['/info', '/help', server.protocol === 'https' ? '/secure' : '/public'],
+constant: 60 * 1000

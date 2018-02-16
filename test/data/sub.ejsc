@@ -1,0 +1,8 @@
+foo: {
+    bar: {
+        baz: 'hello world'
+    },
+    hello: {
+        world: 123
+    }
+}

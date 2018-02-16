@@ -14,9 +14,12 @@
     "author": "Calvin Mann <calvinmann+npm@gmail.com>",
     "license": "MIT",
     "dependencies": {
-        "@major-mann/base-lib": "git+ssh://git@github.com/major-mann/base-lib.git"
+        "@major-mann/base-lib": "git+ssh://git@github.com/major-mann/base-lib.git",
+        "escodegen": "^1.9.0",
+        "esprima": "^4.0.0"
     },
     "devDependencies": {
+        "@major-mann/eslint-config-personal-rules": "git+ssh://git@github.com/major-mann/eslint-config-personal-rules.git",
         "chai": "latest",
         "chai-as-promised": "latest",
         "chai-spies": "latest",
@@ -39,12 +42,16 @@
         "npm": "latest",
         "parse-git-config": "latest",
         "sinon": "latest",
-        "winston-spy": "latest",
-        "@major-mann/eslint-config-personal-rules": "git+ssh://git@github.com/major-mann/eslint-config-personal-rules.git"
+        "winston-spy": "latest"
     },
     "engines": {
         "node": "8.0.0",
         "npm": "5.0.0"
     },
-    "keywords": "configuration config expression expressive"
+    "keywords": [
+        "configuration",
+        "config",
+        "expression",
+        "expressive"
+    ]
 }

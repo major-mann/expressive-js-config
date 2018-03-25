@@ -8,7 +8,7 @@ const replaceRootIdentifiers = require('./context-converter.js'),
 
 // Constants
 const EMPTY = Symbol('empty');
-const PARSER_OPTIONS = { loc: true };
+const PARSER_OPTIONS = { loc: true, tolerant: true };
 
 /**
  * Parses config source and returns a value

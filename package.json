@@ -1,6 +1,6 @@
 {
     "name": "expressive-js-config",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "A config syntax based on JS that allows expressions to be defined inline",
     "main": "src/index.js",
     "scripts": {
